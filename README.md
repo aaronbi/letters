@@ -24,7 +24,7 @@ Dear some name or something,
 
 Statements represent sentences within the body of a letter/email. Statements can be seperated by new line characters to form paragraphs. Statements can either be **filler** or **commands**.
 
-**filler** statements are just sentences that don't do anything (they can be used to pad out the email with more natural language). **filler** sentences just consist of **words** that do not include any key words used by **commands** followed by a sentence terminal {. ? ! ,} (commas are included). **filler** sentences may contain the **arg** key words as long as the sentence before them does not have any **command** key words.
+**filler** statements are just sentences that don't do anything (they can be used to pad out the email with more natural language). **filler** sentences just consist of **words** that do not include any key words used by **commands** followed by a sentence terminal {. ? ! ,} (commas are included). In certain cases **filler** can include key words (for example, you can include "the" or "for" if there are no command keywords in previous sentences), however in most cases it is best to avoid them when writing **filler**.
 ```
 These are filler sentences. They don't include any key words.
 ```
