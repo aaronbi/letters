@@ -1,0 +1,18 @@
+start: intro (statement ("\n")*)+ outro
+intro: ("Dear"|"Hi"|"Hello"|"Hey") " " words "," ("\n")*
+outro: ("\n")* ("Sincerely,"|"Best,"|"Regards,"|"Thanks,"|"Cheers,"|"-") ("\n")* words ("\n")*
+
+
+statement: command | filler
+
+command.5: print arg | (add|char_print) arg (filler* arg)*
+filler.0: words endsent
+
+print.1: words " day " words endsent
+char_print.1: words " with " words endsent
+add.1: words " up " words endsent
+
+arg.1: words (" the "|" of "|" The ") words endsent
+
+words:/[A-Za-z0-9]+/ | (/[A-Za-z0-9]+/ " ")+ /[A-Za-z0-9]+/ |
+endsent: ". " | "! " | "? " | "." | "!" | "?" | ", " | ","
