@@ -56,14 +56,14 @@ This command will print out one letter from each **arg**. The sentence immediatl
 >
 >takes no args
 
-This command will increase the offset by 1.
+This command will increase the offset by 1. (currently out of bound offsets are not correctly handled)
 
 **offset_down**
 >keyword: " out "
 >
 >takes no args
 
-This command will decrease the offset by 1.
+This command will decrease the offset by 1. (currently negative offsets are not correctly handled)
 
 **add**
 >keyword: " up "
