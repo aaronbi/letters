@@ -4,7 +4,7 @@ Letters is an esoteric programming language for extracting hidden messages from 
 
 ## Usage
 
-a file written in letters can be executed using letters.py
+a file written in Letters can be executed using letters.py
 >python3 letters.py (file_name)
 
 
