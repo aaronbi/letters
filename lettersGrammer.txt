@@ -1,15 +1,17 @@
-start: intro (statement ("\n")*)+ outro
+start: intro ((statement|offset_down|offset_up) ("\n")*)+ outro
 intro: ("Dear"|"Hi"|"Hello"|"Hey") " " words "," ("\n")*
 outro: ("\n")* ("Sincerely,"|"Best,"|"Regards,"|"Thanks,"|"Cheers,"|"-") ("\n")* words ("\n")*
 
 
 statement: command | filler
 
-command.5: print arg | (add|char_print) arg (filler* arg)*
+command.5: (print|char_print|add) arg (filler* arg)*
 filler.0: words endsent
 
 print.1: words " day " words endsent
 char_print.1: words " with " words endsent
+offset_up.1: words " about " words endsent
+offset_down.1: words " out " words endsent
 add.1: words " up " words endsent
 
 arg.1: words (" the "|" of "|" The ") words endsent
