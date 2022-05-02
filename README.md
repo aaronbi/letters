@@ -31,7 +31,8 @@ These are filler sentences. They don't include any key words.
 
 **Commands:**
 
-**commands** contain one or more sentences that specify the operation to be executed and its arguments (if needed) using certain key words within the **middle** of a sentence. The general structure of a **command** is a sentence with a command key word followed by a series of **arg**s. An **arg** is a sentence containing the "the" or "of" key word. The data of the **arg** is hidden in the words around the key word.
+**commands** contain one or more sentences that specify the operation to be executed and its arguments (if needed) using certain key words within the **middle** of a sentence. The general structure of a **command** is a sentence with a command key word followed by a series of **arg**s. An **arg** is a sentence containing the "the" or "of" key word. The data of the **arg** is hidden in the words around the key word. **command** and **arg** sentences follow this general format
+>(words) (keyword) (words) (sentence terminal)
 
 **print**
 >keyword: " day "
