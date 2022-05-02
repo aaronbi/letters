@@ -41,6 +41,9 @@ These are filler sentences. They don't include any key words.
 >args after the first arg can be seperated by filler (print arg filler filler arg filler arg)
 
 This command will print out one word from each **arg**. The sentence immediatly after the command must be an **arg**. The word to be printed is the nth word after the key word in the **arg** where 'n' is the current **offset** (default is 0 so first word after the keyword).
+```
+This statement will print Hello World day yup. This sentence must be an arg the Hello. This sentence can be filler. This is the World second arg. 
+```
 
 **char_print**
 >keyword: " with "
