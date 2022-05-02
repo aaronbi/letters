@@ -1,7 +1,7 @@
 # letters
 an esoteric programming language for extracting hidden messages from letters/emails
 
-*Usage:
+**Usage:**
 
 a program written in letters can be executed using letters.py
 
