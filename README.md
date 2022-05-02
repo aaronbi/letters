@@ -29,3 +29,7 @@ The format of the outro is some signing off words (such as Sincerely, Thanks, or
 Thanks,
 Tim
 ```
+It is also possible to sign off with just the ending **words**.
+```
+-name of the writer or something
+```
