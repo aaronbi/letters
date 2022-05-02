@@ -14,5 +14,5 @@ add.1: words " up " words endsent
 
 arg.1: words (" the "|" of "|" The ") words endsent
 
-words:/[A-Za-z0-9]+/ | (/[A-Za-z0-9]+/ " ")+ /[A-Za-z0-9]+/ |
+words:/[A-Za-z0-9"'"]+/ | (/[A-Za-z0-9"'"]+/ " ")+ /[A-Za-z0-9"'"]+/ |
 endsent: ". " | "! " | "? " | "." | "!" | "?" | ", " | ","
