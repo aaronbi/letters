@@ -22,7 +22,7 @@ Dear some name or something,
 
 #### Statements
 
-Statements represent sentences within the body of a letter/email. Statements can either be **filler** or **commands**.
+Statements represent sentences within the body of a letter/email. Statements can be seperated by new line characters to form paragraphs. Statements can either be **filler** or **commands**.
 
 **filler** statements are just sentences that don't do anything (they can be used to pad out the email with more natural language). **filler** sentences just consist of **words** that do not include any key words used by **commands** followed by a sentence terminal {. ? ! ,} (commas are included). **filler** sentences may contain the **arg** key words as long as the sentence before them does not have any **command** key words.
 ```
@@ -31,7 +31,7 @@ These are filler sentences. They don't include any key words.
 
 **Commands:**
 
-**commands** are statements containing one or more sentences that specify the operation to be executed and its arguments (if needed) using certain key words within the **middle** of a sentence. The general structure of a **command** is a sentence with a command key word followed by a series of **arg**s. An **arg** is a sentence containing the "the" or "of" key word. The data of the **arg** is hidden in the words around the key word.
+**commands** contain one or more sentences that specify the operation to be executed and its arguments (if needed) using certain key words within the **middle** of a sentence. The general structure of a **command** is a sentence with a command key word followed by a series of **arg**s. An **arg** is a sentence containing the "the" or "of" key word. The data of the **arg** is hidden in the words around the key word.
 
 **print**
 >keyword: " day "
