@@ -22,6 +22,8 @@ Dear some name or something,
 
 **Statements:**
 
+Statements represent sentances within the body of a letter/email. Statements can either be **filler** or **commands**. **filler** statements are just sentances that don't do anything (they can be used to pad out the email with more natural language). 
+
 **Outro:**
 
 The format of the outro is some signing off words (such as Sincerely, Thanks, or Regards) followed by a new line and some **words** (usually the name of the writer).
