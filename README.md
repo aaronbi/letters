@@ -35,9 +35,12 @@ These are filler sentences. They don't include any key words.
 
 **print**
 >keyword: day
+>
 >takes one or more args
->args after the first arg can be seperated by filler
-This command will print out one or more words. 
+>
+>args after the first arg can be seperated by filler (print arg filler filler arg filler arg)
+
+This command will print out one word from each **arg**. The word to be printed is the nth word after the key word in the arg (default is 0 so first word after the keyword). The 'n' can be changed by changing the **offset**. 
 
 #### Outro
 
