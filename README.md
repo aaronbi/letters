@@ -10,7 +10,7 @@ a file written in letters can be executed using letters.py
 
 ## Syntax
 
-The general format of a Letters program follows that of the standard format of an email/letter. There is an introduction, a series of one or more statements, and a sign off or outro. Many elements of the program can be padded out with **words** to make the language more natural. **words** are just strings of alpha numeric characters (and the apostrophe) seperated by spaces.
+The general format of a Letters program follows that of the standard format of an email/letter. There is an introduction, a series of one or more statements, and an outro. Many elements of the program can be padded out with **words** to make the language more natural. **words** are just strings of alpha numeric characters (and the apostrophe) seperated by spaces.
 
 #### Introduction
 
