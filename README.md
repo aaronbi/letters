@@ -12,7 +12,7 @@ a file written in letters can be executed using letters.py
 
 The general format of a Letters program follows that of the standard format of an email/letter. There is an introduction, a series of one or more statements, and a sign off or outro. Many elements of the program can be padded out with **words** to make the language more natural. **words** are just strings of alpha numeric characters (and the apostrophe) seperated by spaces.
 
-**Introduction:**
+#### Introduction
 
 The format of the introduction is a greeting (such as Dear, Hi, or Hello) followed by some **words** (usually someones name), a comma, and one or more new lines.
 ```
@@ -20,11 +20,26 @@ Dear some name or something,
 
 ```
 
-**Statements:**
+#### Statements
 
-Statements represent sentances within the body of a letter/email. Statements can either be **filler** or **commands**. **filler** statements are just sentances that don't do anything (they can be used to pad out the email with more natural language). 
+Statements represent sentences within the body of a letter/email. Statements can either be **filler** or **commands**.
 
-**Outro:**
+**filler** statements are just sentences that don't do anything (they can be used to pad out the email with more natural language). **filler** sentences just consist of **words** that do not include any key words used by **commands** followed by a sentence terminal {. ? ! ,} (commas are included).
+```
+These are filler sentences. They don't include any key words.
+```
+
+**Commands:**
+
+**commands** are statements containing one or more sentences that specify the operation to be executed and its arguments (if needed) using certain key words within the sentence. The general structure of a **command** is a sentence with a command key word followed by a series of **arg**s. An **arg** is a sentence containing the "the" or "of" key word. The data of the **arg** is hidden in the words around the key word.
+
+**print**
+>keyword: day
+>takes one or more args
+>args after the first arg can be seperated by filler
+This command will print out one or more words. 
+
+#### Outro
 
 The format of the outro is some signing off words (such as Sincerely, Thanks, or Regards) followed by a new line and some **words** (usually the name of the writer).
 ```
