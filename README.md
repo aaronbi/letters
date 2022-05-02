@@ -2,13 +2,13 @@
 Letters is an esoteric programming language for extracting hidden messages from letters/emails (it can also do addition with natural numbers). A number of sample programs are given in .txt files.
 
 
-##Usage
+## Usage
 
 a file written in letters can be executed using letters.py
 >python3 letters.py (file_name)
 
 
-##Syntax
+## Syntax
 
 The general format of a Letters program follows that of the standard format of an email/letter. There is an introduction, a series of one or more statements, and a sign off or outro. Many elements of the program can be padded out with **words** to make the language more natural. **words** are just strings of alpha numeric characters (and the apostrophe) seperated by spaces.
 
